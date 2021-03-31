@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>form</title>
+    <style>
+        
+        form{
+            position: relative;
+            left: 35%;
+            border: 1px solid;
+            width: 30%;
+            padding: 10px;
+            box-shadow: 0 0 10px black;
+        }
+    </style>
+    <script>
+        function openwindow(){
+            window.open("next window.html")
+        }
+    </script>
+</head>
+<body>
+    <form action="/server.php" method="get">
+        <label for="username">username</label>
+        <input type="text"  name="username" id="username"><br><br>
+        <label for="email" id="a1">email</label>
+        <input type="password" name="password" id="email"><br><br>
+        <input type="button" value="Open window" onclick="openwindow()">
+        <button href="forms.html">next</button>
+    </form>
+</body>
+</html>

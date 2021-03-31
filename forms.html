@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>form</title>
+    <style>
+        #a1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        #a2{
+            position: relative;
+            left: 13.8%;
+        }
+        #email{
+            position: relative; 
+            left:1.8%;
+        }
+        form{
+            border: 1px solid;
+            width: 50%;
+            padding: 5px;
+            margin: 1x;
+            box-shadow: 0 0 10px black;
+            position: relative;
+            left: 25%;
+        }
+    </style>
+</head>
+<body>
+    <form action="/server.php" method="get">
+    <label for="username">username</label>
+    <input type="text" name="username" id="password"><br><br>
+    <label for="password">password</label>
+    <input type="password" name="password" id="password"><br><br>
+    <label for="email"id="a3">email</label> 
+     <input type="email" name="email" id="email"><br><br>
+    
+    <label for="sana" id="date">your birthday</label>
+    <input type="date"name="date" id="sana"><br><br>
+    <label for="student">Student </label>
+    <input type="checkbox" name="student" id="student"><br><br>
+    <hr>
+    <label for="Male">Male</label>
+    <input type="radio"name="gender" value="male">
+    <label for="Female">Female</label>
+    <input type="radio" name="gender" value="female"><br><br>
+    <label for="passport">passport</label>
+    <input type="file" name="passport" id="passport"> <br><br>
+    <hr>
+    <label for="tajriba">Experience (year)</label>
+    <select name="experience" id="tajriba">
+        <option value="0">No experience</option>
+        <option value="1">less than year</option>
+        <option value="2">more than year</option>
+    </select><br><br>
+    <label for="about">about you</label><br>
+    <textarea name="haida" id="about" cols="30" rows="10"></textarea>
+    <br><br>
+    <button type="submit" id="a2" href="forms2.html">Register</button>
+    </form>
+</body>
+</html>
