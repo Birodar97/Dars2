@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .container 
+        {
+            max-width: 1200px;
+            background-color: green;
+            padding: 0 40px;
+        }
+
+        .site-icon 
+        {
+            padding:10px; 
+            color: #999;
+        }
+       .site-name 
+       {
+           display: inline-block;
+           text-transform: uppercase;
+           font-size: 2rem;
+           color: #999;
+       }
+    
+       .home_tab 
+       {
+         border:1px dotted #ccc;
+          margin:0 5px 10px;
+          display: inline-block;
+       }
+       .nav-link
+
+       {
+           text-decoration: none;
+           font: size 1.2rem;  
+           color: #999;
+           padding: 25px 30px;  
+           display: inline-block;
+           border-bottom: 5px solid transparent;
+       }
+       .nav-item .nav-link:hover ,
+       .nav-itemactive .nav-link 
+       {
+           color:#000;
+           border-bottom: 5px solid #009;
+       }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+            <header>
+                <div class="home_ico">
+                    <img class="site-icon" src="/Images/home_ico.PNG" alt="">
+                    <h1 class="site-name">New Vision</h1>
+                </div>
+
+                <div class="home_tab">
+                    <table>
+                      <td class="nav-itemactive"><a class="nav-link" href="#">Home</a></td>
+                      <td class="nav-item"><a class="nav-link" href="#">Our Company</a></td>
+                      <td class="nav-item"><a class="nav-link" href="#">Services</a></td>
+                      <td class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></td>
+                    </table>
+                </div>
+
+            </header>
+            
+
+    </div>
+</body>
+</html>

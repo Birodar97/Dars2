@@ -1,0 +1,182 @@
+body{
+    font-family: sans-serif;
+}
+#logo{
+    margin: 0 30px;
+    float: left;
+    height: 60px
+}
+#navbar{
+    z-index: 10;
+}
+ul{
+    z-index: 10;
+    background-color: rgb(191, 209, 30);
+    width: 100%;
+    padding: 0px;
+    margin: 0px;   
+    float: left;
+}
+#foto{
+    padding: 0px;
+}
+li{
+    list-style-type: none;
+
+    float: left;
+    padding: 20px;
+}
+#but{
+    margin-top: 450px;
+    margin-left: 60px;
+    border-radius: 50px;
+
+}
+#but:hover{
+    color: white;
+    background-color: rgb(51, 84, 230);
+}
+#but2:hover{
+    color: rgb(51, 84, 230);
+    background-color: white;
+}
+#but2{
+    color: white;
+    background-color: rgb(51, 84, 230);
+    margin-top: 450px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+input{
+    font-weight: bold;
+    width: 12%;
+    height: 50px;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+li{
+    overflow: hidden;
+}   
+li a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.nav-rig{
+    background-color: rgb(51, 84, 230);
+    border-radius: 20px;
+    margin-left: 150px;
+}
+#button{
+    width: auto;
+    height: auto;
+    box-shadow: 0 0 10px blue;
+}
+#home{
+    width: 100%;
+    height: 700px;
+    background-image: url("/images/company_evolving.jpg");
+}
+#services{
+    width: 100%;
+    height: 700px;
+    background-color: #e8eaed;
+}
+.container{
+    float: left;
+}
+.pad_top{
+    padding-top: 7rem;
+}
+.h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 0;
+    margin-right: 0;
+}
+#logo2{
+    font-weight: normal;
+}
+.cont h3{
+    padding-top: 40px;
+    font-size: 15rem;
+    float: left;
+}
+.cont{
+    color: blue;
+    padding: 0%;
+    margin: 0%; 
+    width: 50%;
+    font-family: 'Merriweather Sans', sans-serif;
+    float: left;
+}
+.cont img{
+    width: 130px;
+}
+.container{
+    border: 1px solid;
+    padding: 1%;
+    margin: 1%;
+    width: 20%;
+    height: 400px;
+    box-shadow: 0 0 10px #000;
+    position: relative;
+    left: 15%;
+}
+.comtainer1 p{
+    padding-top: 150px;
+}
+.contA{
+    color: blue;
+   text-align: center;
+}
+#pricing{
+    height: 700px;
+    width: 100%;
+    margin-right: 0;
+}
+.spa{
+    background-image:linear-gradient(to bottom, lightblue, blue) ;
+}
+.basic{
+    width: 50%;
+    margin-left: 25%;
+}
+.h3pr{
+    text-align: center;
+    color: white;
+    padding-top: 0px;
+}
+.butt{
+    color: blue;
+    position: relative;
+    left: 25%;
+    width: 150px;
+    border-radius: 50px;   
+}
+#about{
+    width: 50%;
+    height: 700px;
+    background-color: #e8eaed;
+    position: relative;
+    float: left;
+}
+aside{
+    width: 50%;
+    height: 700px;
+    background-color:#e8eaed;
+    position: relative;
+    float: left;
+}
+#san{
+    position: relative;
+    left: 15%   ;
+    font-family: sans-serif;
+}
